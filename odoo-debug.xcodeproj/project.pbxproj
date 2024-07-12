@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		136338122C418DAD00B3CD26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13F9CB6E2C3AF90A0045F367 /* Assets.xcassets */; };
+		136338132C418FC000B3CD26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13F9CB6E2C3AF90A0045F367 /* Assets.xcassets */; };
 		13F9CB5E2C3AF9090045F367 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F9CB5D2C3AF9090045F367 /* AppDelegate.swift */; };
 		13F9CB622C3AF9090045F367 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 13F9CB612C3AF9090045F367 /* Base */; };
 		13F9CB642C3AF9090045F367 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 13F9CB632C3AF9090045F367 /* Icon.png */; };
@@ -14,14 +16,13 @@
 		13F9CB682C3AF9090045F367 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 13F9CB672C3AF9090045F367 /* Script.js */; };
 		13F9CB6A2C3AF9090045F367 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F9CB692C3AF9090045F367 /* ViewController.swift */; };
 		13F9CB6D2C3AF9090045F367 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 13F9CB6C2C3AF9090045F367 /* Base */; };
-		13F9CB6F2C3AF90A0045F367 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13F9CB6E2C3AF90A0045F367 /* Assets.xcassets */; };
 		13F9CB772C3AF90A0045F367 /* odoo-debug Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 13F9CB762C3AF90A0045F367 /* odoo-debug Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		13F9CB7C2C3AF90A0045F367 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F9CB7B2C3AF90A0045F367 /* SafariWebExtensionHandler.swift */; };
 		13F9CB7F2C3AF90A0045F367 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = 13F9CB7E2C3AF90A0045F367 /* _locales */; };
 		13F9CB812C3AF90A0045F367 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 13F9CB802C3AF90A0045F367 /* images */; };
 		13F9CB832C3AF90A0045F367 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 13F9CB822C3AF90A0045F367 /* manifest.json */; };
 		13F9CB852C3AF90A0045F367 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = 13F9CB842C3AF90A0045F367 /* background.js */; };
-		13F9CB872C3AF90A0045F367 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 13F9CB862C3AF90A0045F367 /* content.js */; };
+		13F9CB872C3AF90A0045F367 /* login-buttons.js in Resources */ = {isa = PBXBuildFile; fileRef = 13F9CB862C3AF90A0045F367 /* login-buttons.js */; };
 		13F9CB892C3AF90A0045F367 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = 13F9CB882C3AF90A0045F367 /* popup.html */; };
 		13F9CB8B2C3AF90A0045F367 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 13F9CB8A2C3AF90A0045F367 /* popup.css */; };
 		13F9CB8D2C3AF90A0045F367 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 13F9CB8C2C3AF90A0045F367 /* popup.js */; };
@@ -60,7 +61,7 @@
 		13F9CB672C3AF9090045F367 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
 		13F9CB692C3AF9090045F367 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		13F9CB6C2C3AF9090045F367 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		13F9CB6E2C3AF90A0045F367 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		13F9CB6E2C3AF90A0045F367 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "odoo-debug/Assets.xcassets"; sourceTree = SOURCE_ROOT; };
 		13F9CB702C3AF90A0045F367 /* odoo_debug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = odoo_debug.entitlements; sourceTree = "<group>"; };
 		13F9CB712C3AF90A0045F367 /* odoo-debug.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "odoo-debug.entitlements"; sourceTree = "<group>"; };
 		13F9CB762C3AF90A0045F367 /* odoo-debug Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "odoo-debug Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -69,7 +70,7 @@
 		13F9CB802C3AF90A0045F367 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
 		13F9CB822C3AF90A0045F367 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
 		13F9CB842C3AF90A0045F367 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
-		13F9CB862C3AF90A0045F367 /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
+		13F9CB862C3AF90A0045F367 /* login-buttons.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = login-buttons.js; sourceTree = "<group>"; };
 		13F9CB882C3AF90A0045F367 /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
 		13F9CB8A2C3AF90A0045F367 /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
 		13F9CB8C2C3AF90A0045F367 /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
@@ -156,7 +157,7 @@
 				13F9CB802C3AF90A0045F367 /* images */,
 				13F9CB822C3AF90A0045F367 /* manifest.json */,
 				13F9CB842C3AF90A0045F367 /* background.js */,
-				13F9CB862C3AF90A0045F367 /* content.js */,
+				13F9CB862C3AF90A0045F367 /* login-buttons.js */,
 				13F9CB882C3AF90A0045F367 /* popup.html */,
 				13F9CB8A2C3AF90A0045F367 /* popup.css */,
 				13F9CB8C2C3AF90A0045F367 /* popup.js */,
@@ -249,7 +250,7 @@
 				13F9CB682C3AF9090045F367 /* Script.js in Resources */,
 				13F9CB622C3AF9090045F367 /* Base in Resources */,
 				13F9CB662C3AF9090045F367 /* Style.css in Resources */,
-				13F9CB6F2C3AF90A0045F367 /* Assets.xcassets in Resources */,
+				136338122C418DAD00B3CD26 /* Assets.xcassets in Resources */,
 				13F9CB6D2C3AF9090045F367 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -264,7 +265,8 @@
 				13F9CB812C3AF90A0045F367 /* images in Resources */,
 				13F9CB832C3AF90A0045F367 /* manifest.json in Resources */,
 				13F9CB7F2C3AF90A0045F367 /* _locales in Resources */,
-				13F9CB872C3AF90A0045F367 /* content.js in Resources */,
+				13F9CB872C3AF90A0045F367 /* login-buttons.js in Resources */,
+				136338132C418FC000B3CD26 /* Assets.xcassets in Resources */,
 				13F9CB8D2C3AF90A0045F367 /* popup.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -502,14 +504,17 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"ASSETCATALOG_COMPILER_APPICON_NAME[sdk=macosx*]" = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_ENTITLEMENTS = "odoo-debug/odoo-debug.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "odoo-debug";
+				INFOPLIST_KEY_CFBundleDisplayName = "Odoo Debug";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
@@ -538,13 +543,15 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_ENTITLEMENTS = "odoo-debug/odoo-debug.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "odoo-debug";
+				INFOPLIST_KEY_CFBundleDisplayName = "Odoo Debug";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
