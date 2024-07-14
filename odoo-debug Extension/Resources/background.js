@@ -4,9 +4,10 @@ class ClickHandler {
         browser.action.onClicked.addListener(this.handleClick.bind(this));
     }
 
-    handleMessage(request, sender, sendResponse) {
+    handleMessage(request) {
         if (request.action === 'setRunbotLoggedUser') {
-            this.updateParam('search', request.user);
+            this.updateParam('search', `-${request.user}`)
+            this.updateTabUrl(request.tabId)
         }
     }
 
@@ -33,7 +34,7 @@ class ClickHandler {
                 }
                 break;
             case 'runbot.odoo.com':
-                // TODO: add param 'search=-quadrigram' to the URL
+                browser.tabs.sendMessage(tab.id, { action: 'getRunbotLoggedUser' }, this.handleMessage.bind(this));
                 break;
             default:
                 this.updateParam('debug', '1');

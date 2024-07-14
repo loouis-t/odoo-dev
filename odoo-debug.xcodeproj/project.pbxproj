@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		132EB2222C43E16800C85F1A /* runbot.js in Resources */ = {isa = PBXBuildFile; fileRef = 132EB2212C43E16800C85F1A /* runbot.js */; };
 		136338122C418DAD00B3CD26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13F9CB6E2C3AF90A0045F367 /* Assets.xcassets */; };
 		136338132C418FC000B3CD26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13F9CB6E2C3AF90A0045F367 /* Assets.xcassets */; };
 		13F9CB5E2C3AF9090045F367 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13F9CB5D2C3AF9090045F367 /* AppDelegate.swift */; };
@@ -53,6 +54,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		132EB2212C43E16800C85F1A /* runbot.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = runbot.js; sourceTree = "<group>"; };
 		13F9CB5A2C3AF9090045F367 /* odoo-debug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "odoo-debug.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13F9CB5D2C3AF9090045F367 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		13F9CB612C3AF9090045F367 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
@@ -70,7 +72,7 @@
 		13F9CB802C3AF90A0045F367 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
 		13F9CB822C3AF90A0045F367 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
 		13F9CB842C3AF90A0045F367 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
-		13F9CB862C3AF90A0045F367 /* login-buttons.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = login-buttons.js; sourceTree = "<group>"; };
+		13F9CB862C3AF90A0045F367 /* login-buttons.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = "login-buttons.js"; sourceTree = "<group>"; };
 		13F9CB882C3AF90A0045F367 /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
 		13F9CB8A2C3AF90A0045F367 /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
 		13F9CB8C2C3AF90A0045F367 /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
@@ -158,6 +160,7 @@
 				13F9CB822C3AF90A0045F367 /* manifest.json */,
 				13F9CB842C3AF90A0045F367 /* background.js */,
 				13F9CB862C3AF90A0045F367 /* login-buttons.js */,
+				132EB2212C43E16800C85F1A /* runbot.js */,
 				13F9CB882C3AF90A0045F367 /* popup.html */,
 				13F9CB8A2C3AF90A0045F367 /* popup.css */,
 				13F9CB8C2C3AF90A0045F367 /* popup.js */,
@@ -259,6 +262,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				132EB2222C43E16800C85F1A /* runbot.js in Resources */,
 				13F9CB852C3AF90A0045F367 /* background.js in Resources */,
 				13F9CB8B2C3AF90A0045F367 /* popup.css in Resources */,
 				13F9CB892C3AF90A0045F367 /* popup.html in Resources */,
